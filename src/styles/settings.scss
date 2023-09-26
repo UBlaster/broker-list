@@ -1,0 +1,26 @@
+@mixin rezDesktopPlus {
+    @media (min-width: 1280px) {
+        @content
+    }
+}
+
+
+@mixin rezDesktop {
+    @media (max-width: 1280px) {
+        @content
+    }
+}
+
+
+@mixin rezTablet {
+    @media (max-width: 768px) {
+        @content
+    }
+}
+
+
+@mixin rezMobile {
+    @media (max-width: 376px) {
+        @content
+    }
+}
